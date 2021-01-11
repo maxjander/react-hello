@@ -3,13 +3,14 @@ import PFTest from '../PFTest'
 
 function HelloWorld (props) {
     console.log(props); 
-    return (
+    return (<>
         <div>
             <h1>Look {props.HWname}, my very first component, yeah!</h1>
             <p>Monday at last!</p>
             <p>You seem like a decent {props.hprofession}</p>
-            <PFTest name={props.name} setName={props.setName} handleSubmit={props.handleSubmit} profession={props.profession} setProfession={props.setProfession}/>
+            <PFTest name={props.name} setName={props.setName} handleSubmit={props.handleSubmit} profession={props.profession} setProfession={props.setProfession} addPerson={props.addPerson}/>
         </div>
+        </>
     )
 }
 

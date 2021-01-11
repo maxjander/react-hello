@@ -5,7 +5,7 @@ import './PFTest.css'
 // använd State!
 
 
-function PFTest ({profession, setProfession, name, setName, handleSubmit, }) {
+function PFTest ({profession, setProfession, name, setName, handleSubmit, addPerson}) {
 
     // få name och setName att finnas i detta scope. Hur?
     console.log("PFTest ran! name: " + name)
